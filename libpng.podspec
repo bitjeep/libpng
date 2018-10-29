@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'libpng'
-  s.version               = '1.16.0'
+  s.version               = '1.16.36'
   s.summary               = 'PNG C library'
   s.homepage              = 'https://smartvcs.visualstudio.com/smartlib.fpl/_git/libpng'
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.author                = { 'Many contributors' => "LICENSE" }
 
   s.requires_arc          = true
-  s.ios.deployment_target = '10.0'
-  s.osx.deployment_target = '10.10'
+  s.ios.deployment_target = '12.0'
+  s.osx.deployment_target = '10.14'
 
   s.ios.source_files      = '*.{c,h}', 'projects/iOS/libpng/include/pnglibconf.h', 'arm/*.{c,S}'
   s.osx.source_files      = '*.{c,h}', 'projects/iOS/libpng/include/pnglibconf.h'
